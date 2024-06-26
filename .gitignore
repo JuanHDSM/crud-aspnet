@@ -1,0 +1,75 @@
+# Ignore arquivos binários
+bin/
+obj/
+
+# Ignore arquivos de build do Visual Studio
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore pastas de backup do Visual Studio
+.vs/
+.vscode/
+
+# Ignore pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Ignore logs e arquivos de cache
+*.log
+*.cache
+*.temp
+
+# Ignore arquivos gerados por IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# Ignore arquivos de configuração do sistema de versionamento
+*.orig
+
+# Ignore arquivos de deploy
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# Ignore assembly
+*.dll
+*.exe
+*.app
+*.manifest
+*.pdb
+
+# Ignore arquivos temporários e de bloqueio
+*.tmp
+*.lock.json
+
+# Ignore diretórios de publish
+publish/
+wwwroot/
+
+# Ignore arquivos de configuração local
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore arquivos gerados pelo SDK
+project.lock.json
+project.fragment.lock.json
+
+# Ignore arquivos de banco de dados
+*.mdf
+*.ldf
+
+# Ignore configurações de segurança
+secrets.json
+.env
+.env.local
